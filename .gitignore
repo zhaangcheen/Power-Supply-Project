@@ -1,0 +1,20 @@
+# KiCad cache dan backup
+*.kicad_prl
+*.kicad_pro-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.bak
+*.tmp
+*.lck
+
+# Netlist dan output generate
+*.net
+*.xml
+*.csv
+*.gbr
+*.drl
+*.zip
+
+# 3D cache
+*.wrl
+*.step
