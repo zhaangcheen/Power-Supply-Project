@@ -2591,7 +2591,7 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J3"
-			(at -1.1176 -2.54 0)
+			(at -2.5 2.722 0)
 			(layer "F.SilkS")
 			(uuid "b7dbf7bd-35a5-41ab-b782-c6583191a4f3")
 			(effects
@@ -2857,9 +2857,9 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J4"
-			(at 1.1176 -2.794 180)
+			(at -2.5 2.722 180)
 			(layer "F.SilkS")
-			(uuid "8b47e00e-d454-40f1-9094-0db5ff31a79c")
+			(uuid "13c89de6-13a8-4498-a411-573db8d0e83c")
 			(effects
 				(font
 					(size 1 1)
@@ -2871,7 +2871,7 @@
 			(at 0 7.46 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1d3e30af-eaea-44ed-913f-7ccf9ffd37d8")
+			(uuid "dffbada2-5e05-4123-8805-e80df9f8422c")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -2883,7 +2883,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "81a3bf43-035d-4ba5-ba52-1d508ddd5994")
+			(uuid "bd1b323e-e8dc-4ff3-a38d-b930dd7e017c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2894,7 +2894,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "15038214-8e31-4b58-ada4-7865cba0af93")
+			(uuid "036e115f-6063-4034-b331-462148a0f6dc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3581,7 +3581,7 @@
 			)
 		)
 		(property "Value" "LM7805"
-			(at 1.524 -4.0996 0)
+			(at 0.58 2 0)
 			(layer "F.SilkS")
 			(uuid "f1dab49a-e7c5-4ae1-a1fc-a1291666a4c0")
 			(effects
@@ -4383,7 +4383,7 @@
 		(uuid "976f2380-6ef2-4869-b145-9655c417d877")
 	)
 	(gr_text "5V"
-		(at 118.9736 115.7732 0)
+		(at 118.9736 119.5 0)
 		(layer "F.SilkS")
 		(uuid "13d2c5cf-45da-4aae-ae75-535b829d9b4d")
 		(effects
@@ -4396,7 +4396,7 @@
 		)
 	)
 	(gr_text "5V"
-		(at 119.0244 74.168 0)
+		(at 119 74.5 0)
 		(layer "F.SilkS")
 		(uuid "8a1b760a-cbdb-4c57-90f9-5f96b4bc51af")
 		(effects
@@ -4409,7 +4409,7 @@
 		)
 	)
 	(gr_text "3.3V"
-		(at 123.952 74.2188 0)
+		(at 123.952 74.5 0)
 		(layer "F.SilkS")
 		(uuid "1d7229b8-3120-4cee-93fe-3d141ab3ba82")
 		(effects
@@ -4422,7 +4422,7 @@
 		)
 	)
 	(gr_text "3.3V"
-		(at 124.1044 115.7732 0)
+		(at 124.1044 119.5 0)
 		(layer "F.SilkS")
 		(uuid "ca41f3ae-4fda-4950-a574-25b7f6348d0e")
 		(effects
