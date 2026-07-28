@@ -2877,7 +2877,17 @@
 		)
 		(uuid "fea7be3e-18b8-4521-8d36-cd7bf4fac715")
 	)
-	(label "PWR_output"
+	(label "12V"
+		(at 82.55 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "03eec933-6db1-4575-9f36-134bc44f7431")
+	)
+	(label "PWR_output_bot"
 		(at 184.15 107.95 180)
 		(effects
 			(font
@@ -2917,7 +2927,17 @@
 		)
 		(uuid "17c70b83-d845-4037-8c6a-5f0660a58ec6")
 	)
-	(label "PWR_output"
+	(label "3.3V"
+		(at 153.67 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25a9c603-334a-44f1-97db-f1857057e4e2")
+	)
+	(label "PWR_output_top"
 		(at 185.42 62.23 180)
 		(effects
 			(font
@@ -2926,16 +2946,6 @@
 			(justify right bottom)
 		)
 		(uuid "33ebf5a7-6dc0-4b73-9bae-39e4d25dcf7f")
-	)
-	(label "12V"
-		(at 83.82 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4508cbf6-91a6-4e02-aa85-5354a062db73")
 	)
 	(label "PWR_input"
 		(at 86.36 62.23 0)
@@ -2947,16 +2957,6 @@
 		)
 		(uuid "4613a51d-8681-40e3-b3b9-ec57b3cf6d34")
 	)
-	(label "3V"
-		(at 156.21 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6cd7fd21-5017-423e-9930-5e521473ef36")
-	)
 	(label "5V"
 		(at 189.23 99.06 180)
 		(effects
@@ -2966,6 +2966,16 @@
 			(justify right bottom)
 		)
 		(uuid "a2776c6c-b310-48b4-80ea-7657600ba025")
+	)
+	(label "5V"
+		(at 160.02 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccf8cc70-0803-4420-9de2-09595c889c35")
 	)
 	(label "5V"
 		(at 190.5 53.34 180)
@@ -3091,7 +3101,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "560"
 			(at 137.16 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3516,7 +3526,7 @@
 				)
 			)
 		)
-		(property "Value" "560"
+		(property "Value" "330"
 			(at 137.16 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
