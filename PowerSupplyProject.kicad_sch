@@ -3101,7 +3101,7 @@
 				)
 			)
 		)
-		(property "Value" "560"
+		(property "Value" "330"
 			(at 137.16 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3526,7 +3526,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "560"
 			(at 137.16 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)

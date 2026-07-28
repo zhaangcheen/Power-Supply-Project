@@ -566,11 +566,15 @@
       },
       {
         "netclass": "power_output",
-        "pattern": "/PWR_output"
+        "pattern": "/PWR_output_top"
       },
       {
         "netclass": "power_input",
         "pattern": "/PWR_input"
+      },
+      {
+        "netclass": "power_output",
+        "pattern": "/PWR_output_bot"
       }
     ]
   },
